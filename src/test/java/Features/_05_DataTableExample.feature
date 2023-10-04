@@ -5,11 +5,10 @@ Feature: Search Item with Data Table
     When Enter username and password and click login button
     Then User should login succesfully
 
-  Scenario: Add new item with parameter
-    When Enter item name as DataTable
-      | ipod      |
-      | samsung   |
-      | macbook   |
+    Scenario: Add new item with parameter
+      When Enter item name as DataTable
+      |ipod|
+      |macbook|
+      |samsung|
 
-#    And Add to Cart and Check
-#    Then Should be added new item in Shop Cart
+      Then Should be added new item with DataTable in Shop Cart

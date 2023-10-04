@@ -5,3 +5,5 @@ Feature: Multy Data Table
       | iphone  | 15 pro    |
       | macbook | 13" pro   |
       | ipad    | 12.9" pro |
+
+    #String[][]
