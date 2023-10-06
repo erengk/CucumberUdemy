@@ -1,6 +1,7 @@
 package StepDefinitions;
 
 import Pages.DialogContent;
+import Pages.FormContent;
 import Pages.Header;
 import Pages.Parent;
 import io.cucumber.datatable.DataTable;
@@ -13,6 +14,7 @@ import java.util.List;
 public class _07_DataTableClickSteps extends Parent {
     Header h = new Header();
     DialogContent dc = new DialogContent();
+    FormContent fc = new FormContent();
 
 
     @When("Enter item name {string}")
@@ -25,7 +27,7 @@ public class _07_DataTableClickSteps extends Parent {
         List<String> buttonsList = buttons.asList(String.class);
 
         for (int i = 0; i < buttonsList.size(); i++) {
-            WebElement element = h.getWebElement(buttonsList.get(i));
+            WebElement element = fc.getWebElement(buttonsList.get(i));
             clickFunction(element);
         }
     }

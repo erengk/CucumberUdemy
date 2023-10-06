@@ -36,6 +36,18 @@ public class FormContent {
     @FindBy(css = "input[value='Continue']")
     public WebElement continueButton;
 
-
+    public WebElement getWebElement(String element){
+        switch (element){
+            case "firstName": return this.firstName;
+            case "lastName": return this.lastName;
+            case "address1": return this.address1;
+            case "city": return this.city;
+            case "postCode": return this.postCode;
+            case "selectCountry": return this.selectCountry;
+            case "selectRegionState": return this.selectRegionState;
+            case "continueButton": return this.continueButton;
+        }
+        return null;
+    }
 
 }

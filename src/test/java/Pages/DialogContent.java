@@ -40,4 +40,24 @@ public DialogContent(){
 
     @FindBy(xpath = "//div[contains(@class,'alert-success')]")
     public WebElement assertMessageAddress;
+
+    @FindBy(xpath = "(//a[contains(@href, 'delete')])[2]")
+    public WebElement deleteButton;
+
+    public WebElement getWebElement(String element){
+        switch (element){
+            case "deleteButton": return this.deleteButton;
+            case "email": return this.email;
+            case "password": return this.password;
+            case "loginButton": return this.loginButton;
+            case "myAccount": return this.myAccount;
+            case "ipod4": return this.ipod4;
+            case "item1": return this.item1;
+            case "assertMessage": return this.assertMessage;
+            case "addressBookLink": return this.addressBookLink;
+            case "newAddressButton": return this.newAddressButton;
+            case "assertMessageAddress": return this.assertMessageAddress;
+        }
+        return null;
+    }
 }
