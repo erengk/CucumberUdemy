@@ -3,7 +3,7 @@ Feature: Add new Item
   Background:
     Given Navigate to Opencart
     When Enter username and password and click login button
-    Then User should login succesfully
+    Then User should login successfully
 
   Scenario Outline: Add new item with scenario outline
     When Add new item with SO

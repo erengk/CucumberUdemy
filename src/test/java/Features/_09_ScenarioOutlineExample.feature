@@ -9,7 +9,7 @@ Feature: Example Scenario Outline
     And Click to DC elements with Data Table
     |loginButton|
 
-    Then User should login succesfully
+    Then User should login successfully
 
     Examples:
       | email                   | password |

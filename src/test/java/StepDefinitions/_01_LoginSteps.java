@@ -36,8 +36,8 @@ public class _01_LoginSteps extends Parent {
 
     }
 
-    @Then("User should login succesfully")
-    public void userShouldLoginSuccesfully() {
+    @Then("User should login successfully")
+    public void userShouldLoginSuccessfully() {
 //        wait.until(ExpectedConditions.visibilityOf(dc.myAccount));
 //        String message = dc.myAccount.getText();
 //        Assert.assertTrue(message.equals("My Account"), "Login Başarısız");

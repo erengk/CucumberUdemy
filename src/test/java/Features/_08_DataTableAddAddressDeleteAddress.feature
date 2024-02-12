@@ -10,7 +10,7 @@ Feature: Add new address and than delete
     And Click to DC elements with Data Table
       | loginButton |
 
-    Then User should login succesfully
+    Then User should login successfully
 
     And Click to DC elements with Data Table
       | addressBookLink  |
