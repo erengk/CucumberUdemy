@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fe31b58b-aaa2-4e85-97e4-6ef03f3fff99" name="Changes" comment="Runner işlemleri anlatıldı">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Runners/_07_RunnerExtentReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/extent.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/_01_Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/_01_Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/_05_DataTableExample.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/_05_DataTableExample.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/_06_DataTableExampleMulty.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/_06_DataTableExampleMulty.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/_07_DataTableClick.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/_07_DataTableClick.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/_08_DataTableAddAddressDeleteAddress.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/_08_DataTableAddAddressDeleteAddress.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/_09_ScenarioOutlineExample.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/_09_ScenarioOutlineExample.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/_10_AddNewItemWithSO.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/_10_AddNewItemWithSO.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/_11_AddNewAddressRandom.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/_11_AddNewAddressRandom.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/_04_NewAddressCreateSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/_04_NewAddressCreateSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/GWD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/GWD.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2WIMLlSyVC76AviqJHjdQfol266" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cucumber Java.Feature: _11_AddNewAddressRandom.executor": "Run",
+    "Cucumber Java.Scenario: Add New Address Randomly.executor": "Run",
+    "Cucumber Java.Scenario: Add New Address in Our Account.executor": "Run",
+    "Cucumber Java.Scenario: Login with valid username and password.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG._01_RunnerTest.executor": "Run",
+    "TestNG._02_RunnerTestMulty.executor": "Run",
+    "TestNG._03_RunnerAllTests.executor": "Run",
+    "TestNG._04_RunnerSmokeTest.executor": "Run",
+    "TestNG._05_RunnerTestRegression.executor": "Run",
+    "TestNG._06_RunnerTestOr.executor": "Run",
+    "TestNG._07_RunnerExtentReport.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/gokhanerenkamer/Desktop/Udemy Eğitim Seti/CucumberUdemy",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="_07_RunnerExtentReport" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CucumberUdemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Runners" />
+      <option name="MAIN_CLASS_NAME" value="Runners._07_RunnerExtentReport" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG._07_RunnerExtentReport" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_392-corretto-1.8.0_392-3183f394aec4-22f8fbaa" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe31b58b-aaa2-4e85-97e4-6ef03f3fff99" name="Changes" comment="" />
+      <created>1696415587784</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696415587784</updated>
+      <workItem from="1707542317272" duration="29000" />
+      <workItem from="1707542351451" duration="9664000" />
+      <workItem from="1707640687102" duration="2954000" />
+      <workItem from="1707730619044" duration="6869000" />
+    </task>
+    <task id="LOCAL-00001" summary="dataTable ve switch-case yapısı işlendi">
+      <option name="closed" value="true" />
+      <created>1696432901451</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696432901451</updated>
+    </task>
+    <task id="LOCAL-00002" summary="dataTable ve switch-case yapısına devam edildi ve dataTable konusu tamamlandı">
+      <option name="closed" value="true" />
+      <created>1696579761579</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696579761579</updated>
+    </task>
+    <task id="LOCAL-00003" summary="scenario outline anlatıldı">
+      <option name="closed" value="true" />
+      <created>1696601923027</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696601923027</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Runner işlemleri anlatıldı">
+      <option name="closed" value="true" />
+      <created>1707731159397</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707731159397</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dataTable ve switch-case yapısı işlendi" />
+    <MESSAGE value="dataTable ve switch-case yapısına devam edildi ve dataTable konusu tamamlandı" />
+    <MESSAGE value="scenario outline anlatıldı" />
+    <MESSAGE value="Runner işlemleri anlatıldı" />
+    <option name="LAST_COMMIT_MESSAGE" value="Runner işlemleri anlatıldı" />
+  </component>
+</project>

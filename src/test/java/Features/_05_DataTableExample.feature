@@ -5,6 +5,7 @@ Feature: Search Item with Data Table
     When Enter username and password and click login button
     Then User should login successfully
 
+    @RegressionTest
     Scenario: Add new item with parameter
       When Enter item name as DataTable
       |ipod|

@@ -59,7 +59,7 @@ public class _04_NewAddressCreateSteps extends Parent {
         sendKeysFunction(fc.lastName,lastName);
         sendKeysFunction(fc.address1, address1);
         sendKeysFunction(fc.city,city);
-        sendKeysFunction(fc.postCode,num);
+        //sendKeysFunction(fc.postCode,num);
         Select select1 = new Select(fc.selectRegionState);
         select1.selectByIndex(10);
     }

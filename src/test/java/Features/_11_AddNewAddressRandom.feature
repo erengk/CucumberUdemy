@@ -5,6 +5,7 @@ Feature: Add New Random Address
     When Enter username and password and click login button
     Then User should login successfully
 
+    @SmokeTest @RegressionTest
     Scenario: Add New Address Randomly
       When Click address book button
       And Enter firstName "gokhan" and lastName "eren" randomly

@@ -5,6 +5,7 @@ Feature: Add new Item
     When Enter username and password and click login button
     Then User should login successfully
 
+    @SmokeTest
   Scenario Outline: Add new item with scenario outline
     When Add new item with SO
       | searchInput | <newItem> |
