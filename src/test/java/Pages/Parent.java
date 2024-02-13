@@ -1,6 +1,6 @@
 package Pages;
 
-import Utilities.GWD;
+import Utilities.GWD_second;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -12,7 +12,7 @@ import java.time.Duration;
 
 public class Parent {
 
-    WebDriverWait wait = new WebDriverWait(GWD.getDriver(), Duration.ofSeconds(10));
+    WebDriverWait wait = new WebDriverWait(GWD_second.getDriver(), Duration.ofSeconds(10));
 
     public void sendKeysFunction(WebElement element, String text){
         waitUntilVisible(element);
@@ -24,18 +24,18 @@ public class Parent {
     public void clickFunction(WebElement element){
         waitUntilClicakble(element);
         scrollToElementFunction(element);
-        JavascriptExecutor js = (JavascriptExecutor) GWD.getDriver();
+        JavascriptExecutor js = (JavascriptExecutor) GWD_second.getDriver();
         js.executeScript("arguments[0].click();",element);
     }
 
     public void verifyContainsTextFunction(WebElement element, String text){
         wait.until(ExpectedConditions.textToBePresentInElement(element,text));
         Assert.assertTrue(element.getText().toLowerCase().contains(text.toLowerCase()),"Doğrulanamadı");
-        new Actions(GWD.getDriver()).sendKeys(Keys.ESCAPE).perform();
+        new Actions(GWD_second.getDriver()).sendKeys(Keys.ESCAPE).perform();
     }
 
     public void scrollToElementFunction(WebElement element){
-        JavascriptExecutor js = (JavascriptExecutor) GWD.getDriver();
+        JavascriptExecutor js = (JavascriptExecutor) GWD_second.getDriver();
         js.executeScript("arguments[0].scrollIntoView();",element);
     }
 

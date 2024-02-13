@@ -5,12 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe31b58b-aaa2-4e85-97e4-6ef03f3fff99" name="Changes" comment="Detay rapor alma işlemleri anlatıldı">
-      <change afterPath="$PROJECT_DIR$/Test Reports/TestReport 12-Feb-24 17.06.02/PdfReport.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test Reports/TestReport 12-Feb-24 17.06.02/test-output/SparkReport/Spark.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test Reports/TestReport 12-Feb-24 17.06.02/test-output/screenshots/embedded1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test Reports/TestReport 12-Feb-24 17.18.25/PdfReport.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test Reports/TestReport 12-Feb-24 17.18.25/test-output/SparkReport/Spark.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Runners/_08_RunnerParallelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Utilities/GWD_second.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/XML/ParallelTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/DialogContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/DialogContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/FormContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/FormContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/Header.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/Parent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/_01_LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/_01_LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/_04_NewAddressCreateSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/_04_NewAddressCreateSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/GWD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/GWD_first.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,38 +52,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Cucumber Java.Feature: _11_AddNewAddressRandom.executor": "Run",
-    "Cucumber Java.Scenario: Add New Address Randomly.executor": "Run",
-    "Cucumber Java.Scenario: Add New Address in Our Account.executor": "Run",
-    "Cucumber Java.Scenario: Login with valid username and password.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TestNG._01_RunnerTest.executor": "Run",
-    "TestNG._02_RunnerTestMulty.executor": "Run",
-    "TestNG._03_RunnerAllTests.executor": "Run",
-    "TestNG._04_RunnerSmokeTest.executor": "Run",
-    "TestNG._05_RunnerTestRegression.executor": "Run",
-    "TestNG._06_RunnerTestOr.executor": "Run",
-    "TestNG._07_RunnerExtentReport.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/gokhanerenkamer/Desktop/Udemy Eğitim Seti/CucumberUdemy",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Cucumber Java.Feature: _11_AddNewAddressRandom.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Add New Address Randomly.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Add New Address in Our Account.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Login with valid username and password.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG._01_RunnerTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG._02_RunnerTestMulty.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG._03_RunnerAllTests.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG._04_RunnerSmokeTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG._05_RunnerTestRegression.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG._06_RunnerTestOr.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG._07_RunnerExtentReport.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/gokhanerenkamer/Desktop/Udemy Eğitim Seti/CucumberUdemy&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Utilities" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG./Users/gokhanerenkamer/Desktop/Udemy Eğitim Seti/CucumberUdemy/src/test/java/XML/ParallelTest.xml">
     <configuration name="_07_RunnerExtentReport" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CucumberUdemy" />
       <extension name="coverage">
@@ -93,8 +106,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/Users/gokhanerenkamer/Desktop/Udemy Eğitim Seti/CucumberUdemy/src/test/java/XML/ParallelTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CucumberUdemy" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/XML/ParallelTest.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/gokhanerenkamer/Desktop/Udemy Eğitim Seti/CucumberUdemy/src/test/java/XML/ParallelTest.xml" />
         <item itemvalue="TestNG._07_RunnerExtentReport" />
       </list>
     </recent_temporary>
@@ -120,7 +144,8 @@
       <workItem from="1707542351451" duration="9664000" />
       <workItem from="1707640687102" duration="2954000" />
       <workItem from="1707730619044" duration="9193000" />
-      <workItem from="1707746750850" duration="650000" />
+      <workItem from="1707746750850" duration="783000" />
+      <workItem from="1707803989538" duration="5357000" />
     </task>
     <task id="LOCAL-00001" summary="dataTable ve switch-case yapısı işlendi">
       <option name="closed" value="true" />
@@ -162,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707742760169</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Detay rapor alma işlemleri anlatıldı">
+      <option name="closed" value="true" />
+      <created>1707747443469</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707747443469</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

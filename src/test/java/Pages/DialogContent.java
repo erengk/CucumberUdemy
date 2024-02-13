@@ -1,17 +1,15 @@
 package Pages;
 
-import Utilities.GWD;
+import Utilities.GWD_second;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
-import java.util.List;
 
 
 public class DialogContent {
 public DialogContent(){
 
-    PageFactory.initElements(GWD.getDriver(),this);
+    PageFactory.initElements(GWD_second.getDriver(),this);
 }
     @FindBy(id = "input-email")
     public WebElement email;
