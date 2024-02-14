@@ -16,7 +16,7 @@ public class _08_RunnerParallelTest extends AbstractTestNGCucumberTests {
 
     @BeforeClass
     @Parameters("browserType")
-    public void beforeClass(String browserType){
+    public void beforeClass(String browserType) {
         GWD_second.threadBrowserType.set(browserType);
     }
 }

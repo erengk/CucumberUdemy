@@ -55,19 +55,20 @@ public class GWD_second {
 
         return threadLocal.get();
     }
-        public static void quitDriver () {
-            try {
-                Thread.sleep(5000);
-            } catch (InterruptedException e) {
-                throw new RuntimeException(e);
-            }
-            if (threadLocal.get() != null) {
-                threadLocal.get().quit();
 
-                WebDriver driver = threadLocal.get();
-                driver = null;
-
-                threadLocal.set(driver);
-            }
+    public static void quitDriver() {
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
         }
+        if (threadLocal.get() != null) {
+            threadLocal.get().quit();
+
+            WebDriver driver = threadLocal.get();
+            driver = null;
+
+            threadLocal.set(driver);
+        }
+    }
 }

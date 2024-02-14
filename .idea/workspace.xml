@@ -4,21 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe31b58b-aaa2-4e85-97e4-6ef03f3fff99" name="Changes" comment="Detay rapor alma işlemleri anlatıldı">
-      <change afterPath="$PROJECT_DIR$/Test Reports/TestReport 12-Feb-24 17.18.25/PdfReport.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test Reports/TestReport 12-Feb-24 17.18.25/test-output/SparkReport/Spark.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Runners/_08_RunnerParallelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utilities/GWD_second.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/XML/ParallelTest.xml" afterDir="false" />
+    <list default="true" id="fe31b58b-aaa2-4e85-97e4-6ef03f3fff99" name="Changes" comment="parallel test anlatıldı. GWD class düzenlendi, xml yapısı ve runner yapısı parametreli kullanım olarak hazırlandı ve anlatıldı.">
+      <change afterPath="$PROJECT_DIR$/Test Reports/TestReport 13-Feb-24 12.52.10/PdfReport.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test Reports/TestReport 13-Feb-24 12.52.10/test-output/SparkReport/Spark.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test Reports/TestReport 13-Feb-24 12.52.10/test-output/screenshots/embedded1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test Reports/TestReport 13-Feb-24 12.54.56/PdfReport.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test Reports/TestReport 13-Feb-24 12.54.56/test-output/SparkReport/Spark.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/_01_2DArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/_02_ApachePOIData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/_03_ApachePOIAllData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/_04_ApachePOIGetData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/resource/ApacheExcel2.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/resource/LoginData.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/DialogContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/DialogContent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/FormContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/FormContent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/Header.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/Parent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runners/_08_RunnerParallelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/_08_RunnerParallelTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/_01_LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/_01_LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/_04_NewAddressCreateSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/_04_NewAddressCreateSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/GWD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/GWD_first.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/GWD_first.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/GWD_first.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/GWD_second.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/GWD_second.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/XML/ParallelTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/XML/ParallelTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/extent.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/extent.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,56 +57,98 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Cucumber Java.Feature: _11_AddNewAddressRandom.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Add New Address Randomly.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Add New Address in Our Account.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Login with valid username and password.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TestNG._01_RunnerTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG._02_RunnerTestMulty.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG._03_RunnerAllTests.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG._04_RunnerSmokeTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG._05_RunnerTestRegression.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG._06_RunnerTestOr.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG._07_RunnerExtentReport.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/gokhanerenkamer/Desktop/Udemy Eğitim Seti/CucumberUdemy&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application._01_2DArray.executor": "Run",
+    "Application._02_ApachePOIData.executor": "Run",
+    "Application._03_ApachePOIAllData.executor": "Run",
+    "Cucumber Java.Feature: _11_AddNewAddressRandom.executor": "Run",
+    "Cucumber Java.Scenario: Add New Address Randomly.executor": "Run",
+    "Cucumber Java.Scenario: Add New Address in Our Account.executor": "Run",
+    "Cucumber Java.Scenario: Login with valid username and password.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG./Users/gokhanerenkamer/Desktop/Udemy Eğitim Seti/CucumberUdemy/src/test/java/XML/ParallelTest.xml.executor": "Run",
+    "TestNG._01_RunnerTest.executor": "Run",
+    "TestNG._02_RunnerTestMulty.executor": "Run",
+    "TestNG._03_RunnerAllTests.executor": "Run",
+    "TestNG._04_RunnerSmokeTest.executor": "Run",
+    "TestNG._05_RunnerTestRegression.executor": "Run",
+    "TestNG._06_RunnerTestOr.executor": "Run",
+    "TestNG._07_RunnerExtentReport.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/gokhanerenkamer/Desktop/Udemy Eğitim Seti/CucumberUdemy",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/ApachePOI/resource" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/gokhanerenkamer/Desktop/Udemy Eğitim Seti/CucumberUdemy/src/test/java/XML/ParallelTest.xml">
-    <configuration name="_07_RunnerExtentReport" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application._04_ApachePOIGetData">
+    <configuration name="_01_2DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ApachePOI.resource._01_2DArray" />
       <module name="CucumberUdemy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Runners.*" />
+          <option name="PATTERN" value="ApachePOI.resource.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Runners" />
-      <option name="MAIN_CLASS_NAME" value="Runners._07_RunnerExtentReport" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_02_ApachePOIData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ApachePOI._02_ApachePOIData" />
+      <module name="CucumberUdemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ApachePOI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_03_ApachePOIAllData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ApachePOI._03_ApachePOIAllData" />
+      <module name="CucumberUdemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ApachePOI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_04_ApachePOIGetData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ApachePOI._04_ApachePOIGetData" />
+      <module name="CucumberUdemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ApachePOI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -118,8 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._04_ApachePOIGetData" />
+        <item itemvalue="Application._03_ApachePOIAllData" />
+        <item itemvalue="Application._02_ApachePOIData" />
+        <item itemvalue="Application._01_2DArray" />
         <item itemvalue="TestNG./Users/gokhanerenkamer/Desktop/Udemy Eğitim Seti/CucumberUdemy/src/test/java/XML/ParallelTest.xml" />
-        <item itemvalue="TestNG._07_RunnerExtentReport" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +195,11 @@
       <workItem from="1707640687102" duration="2954000" />
       <workItem from="1707730619044" duration="9193000" />
       <workItem from="1707746750850" duration="783000" />
-      <workItem from="1707803989538" duration="5357000" />
+      <workItem from="1707803989538" duration="5858000" />
+      <workItem from="1707817908155" duration="261000" />
+      <workItem from="1707824855267" duration="2356000" />
+      <workItem from="1707891265520" duration="2044000" />
+      <workItem from="1707911960589" duration="4457000" />
     </task>
     <task id="LOCAL-00001" summary="dataTable ve switch-case yapısı işlendi">
       <option name="closed" value="true" />
@@ -195,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707747443469</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="parallel test anlatıldı. GWD class düzenlendi, xml yapısı ve runner yapısı parametreli kullanım olarak hazırlandı ve anlatıldı.">
+      <option name="closed" value="true" />
+      <created>1707814413155</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1707814413155</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +270,7 @@
     <MESSAGE value="scenario outline anlatıldı" />
     <MESSAGE value="Runner işlemleri anlatıldı" />
     <MESSAGE value="Detay rapor alma işlemleri anlatıldı" />
-    <option name="LAST_COMMIT_MESSAGE" value="Detay rapor alma işlemleri anlatıldı" />
+    <MESSAGE value="parallel test anlatıldı. GWD class düzenlendi, xml yapısı ve runner yapısı parametreli kullanım olarak hazırlandı ve anlatıldı." />
+    <option name="LAST_COMMIT_MESSAGE" value="parallel test anlatıldı. GWD class düzenlendi, xml yapısı ve runner yapısı parametreli kullanım olarak hazırlandı ve anlatıldı." />
   </component>
 </project>

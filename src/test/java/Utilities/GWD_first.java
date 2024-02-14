@@ -11,13 +11,13 @@ import java.util.logging.Logger;
 public class GWD_first {
     public static WebDriver driver;
 
-    public static WebDriver getDriver(){
+    public static WebDriver getDriver() {
         Locale.setDefault(new Locale("EN"));
         System.setProperty("user.language", "EN");
 
         Logger logger = Logger.getLogger("");
         logger.setLevel(Level.SEVERE);
-        System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY,"true");
+        System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY, "true");
 
         if (driver == null) {
             driver = new ChromeDriver();
@@ -25,10 +25,10 @@ public class GWD_first {
         return driver;
     }
 
-    public static void quitDriver(){
-        try{
+    public static void quitDriver() {
+        try {
             Thread.sleep(5000);
-        }catch (InterruptedException e){
+        } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
         if (driver != null) {
