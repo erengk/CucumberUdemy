@@ -4,26 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe31b58b-aaa2-4e85-97e4-6ef03f3fff99" name="Changes" comment="parallel test anlatıldı. GWD class düzenlendi, xml yapısı ve runner yapısı parametreli kullanım olarak hazırlandı ve anlatıldı.">
-      <change afterPath="$PROJECT_DIR$/Test Reports/TestReport 13-Feb-24 12.52.10/PdfReport.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test Reports/TestReport 13-Feb-24 12.52.10/test-output/SparkReport/Spark.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test Reports/TestReport 13-Feb-24 12.52.10/test-output/screenshots/embedded1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test Reports/TestReport 13-Feb-24 12.54.56/PdfReport.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test Reports/TestReport 13-Feb-24 12.54.56/test-output/SparkReport/Spark.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/_01_2DArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/_02_ApachePOIData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/_03_ApachePOIAllData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/_04_ApachePOIGetData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/resource/ApacheExcel2.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/resource/LoginData.xlsx" afterDir="false" />
+    <list default="true" id="fe31b58b-aaa2-4e85-97e4-6ef03f3fff99" name="Changes" comment="ApachePOI işlemleri anlatıldı.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/_05_ApachePOIWriteInExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/_06_ApachePOINewExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/_07_Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/resource/CreatedExcel.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/resource/WriteInTheExcelFile.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/resource/newExcelforTask.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Runners/_08_RunnerParallelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/_08_RunnerParallelTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/GWD_first.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/GWD_first.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/GWD_second.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/GWD_second.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/XML/ParallelTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/XML/ParallelTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/extent.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/extent.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ApachePOI/resource/~$LoginData.xlsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +52,10 @@
     "Application._01_2DArray.executor": "Run",
     "Application._02_ApachePOIData.executor": "Run",
     "Application._03_ApachePOIAllData.executor": "Run",
+    "Application._04_ApachePOIGetData.executor": "Run",
+    "Application._05_ApachePOIWriteInExcel.executor": "Run",
+    "Application._06_ApachePOINewExcel.executor": "Run",
+    "Application._07_Task.executor": "Run",
     "Cucumber Java.Feature: _11_AddNewAddressRandom.executor": "Run",
     "Cucumber Java.Scenario: Add New Address Randomly.executor": "Run",
     "Cucumber Java.Scenario: Add New Address in Our Account.executor": "Run",
@@ -100,22 +93,9 @@
       <recent name="Utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._04_ApachePOIGetData">
-    <configuration name="_01_2DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ApachePOI.resource._01_2DArray" />
-      <module name="CucumberUdemy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ApachePOI.resource.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_02_ApachePOIData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ApachePOI._02_ApachePOIData" />
+  <component name="RunManager" selected="Application._07_Task">
+    <configuration name="_05_ApachePOIWriteInExcel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ApachePOI._05_ApachePOIWriteInExcel" />
       <module name="CucumberUdemy" />
       <extension name="coverage">
         <pattern>
@@ -127,8 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_03_ApachePOIAllData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ApachePOI._03_ApachePOIAllData" />
+    <configuration name="_06_ApachePOINewExcel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ApachePOI._06_ApachePOINewExcel" />
       <module name="CucumberUdemy" />
       <extension name="coverage">
         <pattern>
@@ -140,8 +120,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_04_ApachePOIGetData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ApachePOI._04_ApachePOIGetData" />
+    <configuration name="_07_Task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ApachePOI._07_Task" />
       <module name="CucumberUdemy" />
       <extension name="coverage">
         <pattern>
@@ -149,27 +129,15 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/Users/gokhanerenkamer/Desktop/Udemy Eğitim Seti/CucumberUdemy/src/test/java/XML/ParallelTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="CucumberUdemy" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/XML/ParallelTest.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application._04_ApachePOIGetData" />
-        <item itemvalue="Application._03_ApachePOIAllData" />
-        <item itemvalue="Application._02_ApachePOIData" />
-        <item itemvalue="Application._01_2DArray" />
-        <item itemvalue="TestNG./Users/gokhanerenkamer/Desktop/Udemy Eğitim Seti/CucumberUdemy/src/test/java/XML/ParallelTest.xml" />
+        <item itemvalue="Application._07_Task" />
+        <item itemvalue="Application._06_ApachePOINewExcel" />
+        <item itemvalue="Application._05_ApachePOIWriteInExcel" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +167,9 @@
       <workItem from="1707817908155" duration="261000" />
       <workItem from="1707824855267" duration="2356000" />
       <workItem from="1707891265520" duration="2044000" />
-      <workItem from="1707911960589" duration="4457000" />
+      <workItem from="1707911960589" duration="4888000" />
+      <workItem from="1707990595779" duration="2599000" />
+      <workItem from="1708077046766" duration="3858000" />
     </task>
     <task id="LOCAL-00001" summary="dataTable ve switch-case yapısı işlendi">
       <option name="closed" value="true" />
@@ -257,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707814413155</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ApachePOI işlemleri anlatıldı.">
+      <option name="closed" value="true" />
+      <created>1707916730996</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1707916730996</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +249,7 @@
     <MESSAGE value="Runner işlemleri anlatıldı" />
     <MESSAGE value="Detay rapor alma işlemleri anlatıldı" />
     <MESSAGE value="parallel test anlatıldı. GWD class düzenlendi, xml yapısı ve runner yapısı parametreli kullanım olarak hazırlandı ve anlatıldı." />
-    <option name="LAST_COMMIT_MESSAGE" value="parallel test anlatıldı. GWD class düzenlendi, xml yapısı ve runner yapısı parametreli kullanım olarak hazırlandı ve anlatıldı." />
+    <MESSAGE value="ApachePOI işlemleri anlatıldı." />
+    <option name="LAST_COMMIT_MESSAGE" value="ApachePOI işlemleri anlatıldı." />
   </component>
 </project>
